@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void changeImg(View view) {
-
+        
         int rand = (int)(Math.random() * 3) + 1;
         System.out.print(rand);
         if (rand==1) {
@@ -37,6 +37,5 @@ public class MainActivity extends AppCompatActivity {
             btniv.setImageResource(R.drawable.obamba);
         }
     }
-
 }
 
